@@ -1,5 +1,3 @@
-#define DEBUG_FLAG 1
-
 #include <stdio.h>
 #include <ip/ip.h>
 

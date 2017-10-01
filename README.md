@@ -1,8 +1,14 @@
 # libip
 
+## This library is just a small utility for performing simple IP address calculations
+
+#### Run the install.sh script by typing `sudo sh install.sh` to install the library globally or just type `sh build.sh` to get the shared object in the directory itself.
+
+### For compiling programs using libip include the header file ip.h like this `#include <ip/ip.h>` and compile your C file using `gcc main.c -lip`
+
 ### IP makeIP(char* ip)
 makeIP function takes in a character array and gives out an IP struct,this function is used to initialize an IP variable.
-Example: `IP ip = makeIP("192.168.14.210")``
+Example: `IP ip = makeIP("192.168.14.210")`
 
 
 ### void printIP(IP ip)
